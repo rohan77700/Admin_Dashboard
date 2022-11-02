@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- sidebar section -->
+        <div class="sidebar">
+            <div class="logo-heading">
+                <a href="/"><img src="assets/view-dashboard.png" class="logo-img" alt="">Dashboard</a>
+            </div>
+            <div class="navbar">
+                <ul class="nav-menu menu-style">
+                    <li><img src="assets/home.png" class="icon" alt="">Home</li>
+                    <li><img src="assets/profile.png" class="icon" alt="">Profile</li>
+                    <li><img src="assets/message.png" class="icon" alt="">Messages</li>
+                    <li><img src="assets/history.png" class="icon" alt="">History</li>
+                    <li><img src="assets/task.png" class="icon" alt="">Tasks</li>
+                    <li><img src="assets/communities.png" class="icon" alt="">Communities</li>
+                </ul>
+            </div>
+            <div class="setting-bar">
+                <ul class="setting-menu menu-style">
+                    <li><img src="assets/settings.png" class="icon" alt="">Settings</li>
+                    <li><img src="assets/support.png" class="icon" alt="">Support</li>
+                    <li><img src="assets/privacy.png" class="icon" alt="">Privacy</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- header section -->
+        <div class="header">
+            <div class="top-header">
+                <div class="search-bar">
+                    <div class="search-img">
+                        <input type="image" class="search-icon" form="myform" src="assets/magnify.svg">
+                    </div>
+                    <form id="myform" method="get" action="#">
+                        <input class="search-input" type="search" id="search" name="search" placeholder="Search" value=""><br><br>
+                    </form>
+                </div>
+                <div class="profile-bar">
+                    <div class="clickable"><img class="bell-icon" src="assets/bell.svg" alt="notification icon"></div>  
+                    <a href="https://github.com/rohan77700" class="clickable" target="_blank"><img class="profile-pic-small" src="assets/profile-pic.png" alt="profile picture"></a>
+                </div>
+            </div>
+
+            <div class="bottom-header">
+                <div class="profile-display">
+                    <div class="clickable"><img class="profile-pic-large" src="assets/profile-pic.png" alt="profile picture"></div>
+                    <div class="name-greeting">
+                        <div class="greeting">Hi there,</div>
+                        <div class="name">Ro Han (@ro_han)</div>
+                    </div>
+                </div>
+                <div class="make-post">
+                    <button class="head-button">New</button>
+                    <button class="head-button">Upload</button>
+                    <button class="head-button">Share</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- main section -->
+        <main>
+            <div class="project-display">
+                <div class="project-heading"><b>My Projects</b></div>
+                <div class="projects-container">
+    
+                    <div class="project">
+                        <div class="project-text">
+                            <div class="project-title">Odin Recipes</div>
+                            <div class="project-description">Lorem Ipsum nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation.</div>
+                        </div>
+                        <div class="project-interact-container">
+                            <ul class="interactions">
+                                <a href="#"><li class="interact"><img src="assets/star-plus-outline.svg" alt="favorite post"></li></a>
+                                <a href="https://rohan77700.github.io/odin-recipes/" target="_blank"><li class="interact"><img src="assets/eye-plus-outline.svg" alt="preview post"></li></a>
+                                <a href="https://github.com/rohan77700/odin-recipes" target="_blank"><li class="interact"><img src="assets/source-fork.svg" alt="fork project"></li></a>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="project">
+                        <div class="project-text">
+                            <div class="project-title">Jett Landing Page</div>
+                            <div class="project-description">Lorem Ipsum laboris nisi ut aliquip ex ea commodo consequat.</div>
+                        </div>
+                        <div class="project-interact-container">
+                            <ul class="interactions">
+                                <a href="#"><li class="interact"><img src="assets/star-plus-outline.svg" alt="favorite post"></li></a>
+                                <a href="https://rohan77700.github.io/jett-landing-page/" target="_blank"><li class="interact"><img src="assets/eye-plus-outline.svg" alt="preview post"></li></a>
+                                <a href="https://github.com/rohan77700/jett-landing-page" target="_blank"><li class="interact"><img src="assets/source-fork.svg" alt="fork project"></li></a>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="project">
+                        <div class="project-text">
+                            <div class="project-title">Rock Paper Scissors</div>
+                            <div class="project-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                        </div>
+                        <div class="project-interact-container">
+                            <ul class="interactions">
+                                <a href="#"><li class="interact"><img src="assets/star-plus-outline.svg" alt="favorite post"></li></a>
+                                <a href="https://rohan77700.github.io/rock-paper-scissors/" target="_blank"><li class="interact"><img src="assets/eye-plus-outline.svg" alt="preview post"></li></a>
+                                <a href="https://github.com/rohan77700/rock-paper-scissors" target="_blank"><li class="interact"><img src="assets/source-fork.svg" alt="fork project"></li></a>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="project">
+                        <div class="project-text">
+                            <div class="project-title">Etch a Sketch</div>
+                            <div class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        </div>
+                        <div class="project-interact-container">
+                            <ul class="interactions">
+                                <a href="#"><li class="interact"><img src="assets/star-plus-outline.svg" alt="favorite post"></li></a>
+                                <a href="https://rohan77700.github.io/Etch-a-Sketch/" target="_blank"><li class="interact"><img src="assets/eye-plus-outline.svg" alt="preview post"></li></a>
+                                <a href="https://github.com/rohan77700/Etch-a-Sketch" target="_blank"><li class="interact"><img src="assets/source-fork.svg" alt="fork project"></li></a>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="project">
+                        <div class="project-text">
+                            <div class="project-title">iCalculator</div>
+                            <div class="project-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                        </div>
+                        <div class="project-interact-container">
+                            <ul class="interactions">
+                                <a href="#"><li class="interact"><img src="assets/star-plus-outline.svg" alt="favorite post"></li></a>
+                                <a href="https://rohan77700.github.io/iCalculator/" target="_blank"><li class="interact"><img src="assets/eye-plus-outline.svg" alt="preview post"></li></a>
+                                <a href="https://github.com/rohan77700/iCalculator" target="_blank"><li class="interact"><img src="assets/source-fork.svg" alt="fork project"></li></a>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="project">
+                        <div class="project-text">
+                            <div class="project-title">Odin Sign up Form</div>
+                            <div class="project-description">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                        </div>
+                        <div class="project-interact-container">
+                            <ul class="interactions">
+                                <a href="#"><li class="interact"><img src="assets/star-plus-outline.svg" alt="favorite post"></li></a>
+                                <a href="https://rohan77700.github.io/odin-Sign-up-Form/" target="_blank"><li class="interact"><img src="assets/eye-plus-outline.svg" alt="preview post"></li></a>
+                                <a href="https://github.com/rohan77700/odin-Sign-up-Form" target="_blank"><li class="interact"><img src="assets/source-fork.svg" alt="fork project"></li></a>
+                            </ul>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+    
+    
+    
+            <div class="announcements-section">
+                <div class="announcements-heading"><b>Announcements</b></div>
+                <div class="announcements-container">
+                    <div class="announcement-title">Site Maintenance</div>
+                    <div class="announcement-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    <hr>
+                    <div class="announcement-title">Community Share Day</div>
+                    <div class="announcement-description">Ut enim ad minim veniam, quis nostrud exercitation.</div>
+                    <hr>
+                    <div class="announcement-title">Updated Privacy Policy</div>
+                    <div class="announcement-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed.</div>
+                </div>
+            </div>
+    
+    
+    
+    
+            <div class="trending-profiles-section">
+                <div class="trending-heading"><b>Trending</b></div>
+                <div class="trending-container">
+                    <div class="trending-profile">
+                        <div><img class="profile-pic-small" src="assets/pic1.jpg" alt=""></div>
+                        <div class="trending-profile-info">
+                            <div class="trending-username">@yelan</div>
+                            <div class="trending-project">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+                        </div>
+                    </div>
+                    <div class="trending-profile">
+                        <div><img class="profile-pic-small" src="assets/pic2.jpg" alt=""></div>
+                        <div class="trending-profile-info">
+                            <div class="trending-username">@jean</div>
+                            <div class="trending-project">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+                        </div>
+                    </div>
+                    <div class="trending-profile">
+                        <div><img class="profile-pic-small" src="assets/pic3.jpg" alt=""></div>
+                        <div class="trending-profile-info">
+                            <div class="trending-username">@kazuha</div>
+                            <div class="trending-project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe?</div>
+                        </div>
+                    </div>
+                    <div class="trending-profile">
+                        <div><img class="profile-pic-small" src="assets/pic4.jpg" alt=""></div>
+                        <div class="trending-profile-info">
+                            <div class="trending-username">@xiao</div>
+                            <div class="trending-project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe?</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+    
+</body>
+</html>
